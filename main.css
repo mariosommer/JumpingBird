@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+
+div{
+	color:black;
+	position:fixed;
+	top:1.1em;
+	left:3.3em;
+	font-family: 'Lato';	
+}
+
+div:nth-child(13n+1){ 
+	font-size:3em;
+	color:white;
+	position:fixed;
+	top:4.4em;
+	left:7em;
+	}
+	
+#reset{
+	position:fixed;
+	top:-33em;
+	left:13.8em;
+	background-color: black;
+	color:white;
+	font-family: 'Lato','arial';
+	font-size: 1.4em;
+	text-align: center;
+	border: solid 2px black;
+	border-radius: 50px;
+	padding:0.3em 0.7em 0.3em 0.7em;
+	width:10em;
+	position:relative;
+	display:none;
+}
+
+#reset:hover{
+		background-color: white;
+		color: black;
+	} 
+
+#gameOver{
+	width:800px;
+	height:480px;
+	position:relative;
+	top:-560px;
+	left:20px;
+	color:white;
+	background-color:#000;
+	display:none;
+}
+
+#gameOver2{
+	color:white;
+	display:none;
+}
+
+#startscreen{
+	width:800px;
+	height:480px;
+	color:white;
+	position:absolute;
+	top:8px;
+	left:26px;
+	display:block;
+}
+
+#vogel1{
+	width:80px;
+	height:180px;
+	position:fixed;
+	color:white;
+	position:absolute;
+	top: 168px;
+	left: 150px;
+	display:block;
+}
+
+#vogel2{
+	width:80px;
+	height:80px;
+	position:fixed;
+	color:white;
+	position:absolute;
+	top: 198px;
+	left: 392px;
+	display:block;
+}
+
+#vogel3{
+	width:80px;
+	height:80px;
+	position:fixed;
+	color:white;
+	position:absolute;
+	top: 168px;
+	left: 604px;
+	display:block;
+}
+
+#vogel1:hover{
+	top: 160px;
+	} 
+
+#vogel2:hover{
+	top: 190px;
+	} 
+
+#vogel3:hover{
+	top: 160px;
+	} 
+
+p{
+	font-size: 80px;
+	position:relative;
+	left: 165px;
+	top:100px;
+}
+
+#background{
+	position:relative;
+	top: 100px;
+}
+
+#music{
+	position:absolute;
+	top:450px;
+	left:200px;
+	display:none;
+	color:E2E2E2;
+	font-size:10px;
+}
